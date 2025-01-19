@@ -1,0 +1,385 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #50a8a5;
+    color: white;
+    opacity: 2;
+    background-image: url();
+}
+
+/* Main section styles */
+.main1 {
+    background-image: url("tf10.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Header Styles */
+header {
+    background-color: #52402865;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 10px;
+    border-radius: 40vh;
+    bottom: 60px;
+}
+
+header p {
+    font-size: 3.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* Main Section Styles */
+.main2 {
+    color: #dbdbd7e8;
+    font-size: xx-large;
+    height: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 5px;
+    background-image: url("tf8.jpg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: aliceblue;
+   
+    
+}
+
+.main p {
+    font-weight: 300;
+    
+}
+
+.main li {
+    font-weight: 300;
+}
+
+.main a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    width: 30%;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Objective and Measures list styles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Form */
+.team {
+    height: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    align-items: center;
+}
+
+.team a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px 2px 2px 2px;
+    transition: all 0.3s linear;
+}
+
+/* Link */
+#link {
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+#Drive {
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    height: 40px;
+    transition: all 0.3s linear;
+}
+
+/* Footer */
+footer {
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+#name{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1vh;
+}
+
+/* Proposal */
+.body2 {
+    background-color: #fff;
+    color: black;
+}
+
+.Prop {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    border: 2px solid black;
+}
+
+.Prop h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Prop p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Measures */
+.meas {
+    height: 80%;
+    width: 60%;
+    position: sticky;
+    left: 20%;
+    top: 10%;
+    border: 2px solid black;
+}
+
+.meas h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.meas ol {
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.meas p {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+/* Hover Effects */
+#link a:hover {
+    font-size: 21px;
+}
+
+.team a:hover {
+    font-size: 23px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Design */
+
+/* Mobile */
+@media (max-width: 768px) {
+    body{
+        background-color: rgb(94, 75, 45);
+    }
+    
+    header {
+        height: ;
+        width: 94%;
+        margin-left: 4%;
+        margin-top: 30px;
+        background-color: rgba(33, 33, 24, 0.658);
+    }
+
+    header p {
+        font-size: 27px;
+        padding-bottom: 10px;
+    }
+
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    .main1 {
+        height: 600px;
+        
+        font-size: 14px;
+        font-weight: 500;
+        background-image: url("tf1.jpg");
+        background-size: cover;
+    }
+
+    .main {
+        flex-direction: column;
+        font-size: 16px;
+        background-image: url("image.png");
+        background-size: cover;
+    }
+
+    .main2{
+        font-size: medium;
+        color: rgba(173, 146, 104, 0.97);
+        align-items: initial;
+        margin-top: 27%;
+        font-style: oblique;
+    }
+
+    section {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .team {
+        flex-direction: column;
+        font-size: medium;
+        
+    }
+    #link {
+        text-align:left;
+        margin-left:10px ;
+    }
+    footer {
+        font-size: small;
+    }
+    #name{
+        font-size: .6vh;
+    }
+
+    .body2{
+        height: 1600px;
+    }
+
+    .Prop  {
+        height: 80%;
+        width: 80%;
+        left: 10%;
+        top: 5%;
+    }
+    .meas {
+        height: 75%;
+        width: 80%;
+        left: 10%;
+        top: 1%;
+    }
+
+    .meas p{
+        margin-top: 15%;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        font-size: 18px;
+       
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .team {
+        flex-direction: column;
+        font-size: medium;
+        align-items: center;
+    }
+
+    #link {
+        display: flex;
+        justify-content: center;
+        margin-left: -20%;
+        margin-right: 10%;
+    }
+
+    section {
+        width: 45%;
+    }
+
+    .Prop, .meas {
+        width: 70%;
+        left: 15%;
+        top: 15%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    header {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    .main {
+        flex-direction: row;
+        font-size: 20px;
+    }
+
+    .Prop, .meas {
+        width: 50%;
+        left: 25%;
+        top: 10%;
+    }
+}
